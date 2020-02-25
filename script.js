@@ -1,5 +1,4 @@
-var caroussel = document.getElementById('carousel);')
+var caroussel = document.getElementById('carousel');
 
 
-document.querySelector(".carousel")
-console.log(carousel[0]);
+console.log(carousel);
