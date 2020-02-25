@@ -9,12 +9,12 @@ body
     background-color: grey;
 }
 
-.item
-{
-    width: 20%;
-    height: 150px;
-    border: 2px solid black;
-    margin: auto;
+.container {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 20vh;
+    perspective: 1000px;
 }
-
 
