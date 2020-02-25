@@ -16,3 +16,23 @@ function rotate(direction){
     position += direction;
     carousel.style.transform = "rotateY(" + position + "deg)"
 }
+
+function auto() {
+    setTimeout(function () {
+        rotate(-60);
+        auto
+    }, 200);
+}
+
+auto();
+
+console.log(prev);
+console.log(next);
+
+carousel.addEventListener("mousseover", function (){
+console.log('stopped');
+})
+
+carousel.addEventListener("mousseover", function (){
+    console.log('reactivated');
+})
