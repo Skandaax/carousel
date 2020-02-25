@@ -1,3 +1,4 @@
+var position = 0
 var caroussel = document.querySelector('.carousel');
 
 var prev = document.querySelector('.prev')
@@ -13,7 +14,7 @@ next.addEventListener("click", function (){
 
 function rotate(direction){
     position += direction;
-    carousel.style.transform = "rotate(" + position + "deg)"
+    carousel.style.transform = "rotateY(" + position + "deg)"
 }
 
 console.log(carousel);
