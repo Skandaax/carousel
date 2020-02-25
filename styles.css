@@ -39,22 +39,28 @@ body
   }
   
   .t1 {
-    transform: rotateY(0deg) translateZ(250px);
+    transform: rotateY(0deg) translateZ(300px);
+    border: 7px solid ghostwhite;
   }
   .t2 {
-    transform: rotateY(60deg) translateZ(250px);
+    transform: rotateY(60deg) translateZ(300px);
+    border: 7px solid ghostwhite;
   }
   .t3 {
-    transform: rotateY(120deg) translateZ(250px);
+    transform: rotateY(120deg) translateZ(300px);
+    border: 7px solid ghostwhite;
   }
   .t4 {
-    transform: rotateY(180deg) translateZ(250px);
+    transform: rotateY(180deg) translateZ(300px);
+    border: 7px solid ghostwhite;
   }
   .t5 {
-    transform: rotateY(240deg) translateZ(250px);
+    transform: rotateY(240deg) translateZ(300px);
+    border: 7px solid ghostwhite;
   } 
   .t6 {
-    transform: rotateY(300deg) translateZ(250px);
+    transform: rotateY(300deg) translateZ(300px);
+    border: 7px solid ghostwhite;
   }
   
   .next, .prev {

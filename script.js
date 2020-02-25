@@ -1,4 +1,5 @@
-var position = 0
+var position = 0;
+var rotation = true;
 var caroussel = document.querySelector('.carousel');
 
 var prev = document.querySelector('.prev')
@@ -19,9 +20,11 @@ function rotate(direction){
 
 function auto() {
     setTimeout(function () {
-        rotate(-60);
+        if(rotation){
+           rotate(-60); 
+        }
         auto
-    }, 200);
+    }, 3000);
 }
 
 auto();
@@ -30,9 +33,9 @@ console.log(prev);
 console.log(next);
 
 carousel.addEventListener("mousseover", function (){
-console.log('stopped');
+rotation = false
 })
 
 carousel.addEventListener("mousseover", function (){
-    console.log('reactivated');
+    rotation = true
 })
