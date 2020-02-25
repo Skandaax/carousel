@@ -16,5 +16,3 @@ function rotate(direction){
     position += direction;
     carousel.style.transform = "rotateY(" + position + "deg)"
 }
-
-console.log(carousel);
