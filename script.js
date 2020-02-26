@@ -39,3 +39,4 @@ rotation = false
 carousel.addEventListener("mousseover", function (){
     rotation = true
 })
+
